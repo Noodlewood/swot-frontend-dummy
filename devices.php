@@ -12,10 +12,15 @@
 	<?php include("navigation.html");?>
 	<div class="main">
 		<div class="main-title">Geräte</div>
+		<div class="devices-add">
+			Gerät hinzufügen: 
+			<input type="file" />
+			<input type="submit" />
+		</div>
 		<div class="devices-list">
 			<ul>
-				<li><a href="device1.php">Device1</li>
-				<li><a href="device2.php">Device2</li>				
+				<li><a href="device1.php"><div class="devices-list-picture toaster-pic"></div>Toaster</li>
+				<li><a href="device2.php"><div class="devices-list-picture skoda-pic"></div>Skoda</li>				
 			</ul>
 		</div>
 	</div>

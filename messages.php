@@ -11,8 +11,7 @@
 <div class="content">
 	<?php include("navigation.html");?>
 	<div class="main">
-		<div class="main-title">Neuigkeiten</div>
-		<?php include("newsfeed.php");?>
+		<div class="main-title">Nachrichten</div>
 	</div>
 </div>
 </body>

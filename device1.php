@@ -11,8 +11,9 @@
 <div class="content">
 	<?php include("navigation.html");?>
 	<div class="main">
-		<div class="main-title">Device 2</div>
-		<div class="devices-actions">
+		<div class="main-title">Toaster</div>
+		<div class="device-detail-picture toaster-pic"></div>
+		<div class="device-actions">
 			<ul>
 				<li>Move</li>
 				<li>Do</li>
@@ -26,7 +27,17 @@
 				<li>Start</li>
 				<li>Count</li>
 			</ul>
+			<ul>
+				<li>MashUp</li>
+				<li>Teilen</li>
+				<li>Sichtbarkeit</li>
+				<li>Verleihen</li>
+				<li>Übertragen</li>
+				<li>Löschen</li>
+			</ul>
 		</div>
+		<iframe src=""></iframe>
+		<?php include("newsfeed.php");?>
 	</div>
 </div>
 </body>

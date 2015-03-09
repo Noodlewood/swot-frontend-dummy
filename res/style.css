@@ -46,8 +46,19 @@ a {
 	width: 150px;
 }
 
- li {
+li {
 	margin: 10px;
+}
+
+.devices-list li, .device-actions li {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 23px;
+	text-align: center;
+}
+
+.devices-list li:hover, .device-actions li:hover {
+	color: green;
 }
 
 .main-title {
@@ -57,27 +68,58 @@ a {
     padding-top: 4px;
 }
 
-.devices-actions {
-	height: 50px;
-}
-
-.devices-actions li {
-	display: inline-block;
-	margin: 10px;
-	cursor: pointer;
-	font-size: 23px;
-}
-
-.devices-actions li:hover {
-	color: green;
-}
-
-.devices-actions ul {
+.device-actions ul {
 	margin: 0;
+}
+
+.devices-add {
+	margin: 20px;
 }
 
 .news-item {
 	margin: 20px;
 	padding: 10px;
 	border: 1px solid black;
+}
+
+.device-detail-picture {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+}
+
+.devices-list-picture {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	margin: 8px;
+}
+
+.toaster-pic {
+	background: transparent url("toaster.jpg") no-repeat center center;
+	background-size: contain;
+}
+
+.skoda-pic {
+	background: transparent url("auto.jpg") no-repeat center center;
+	background-size: contain;
+}
+
+.person-pic {
+	background: transparent url("person.jpg") no-repeat center center;
+	background-size: contain;
+}
+
+.news-picture {
+	width: 50px;
+}
+
+.news-header * {
+	display: inline-block;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.news-header {
+	margin-bottom: 10px;
 }
