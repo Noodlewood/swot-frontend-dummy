@@ -12,7 +12,7 @@
 	<?php include("navigation.html");?>
 	<div class="main">
 		<div class="main-title">Neuigkeiten</div>
-		<?php include("newsfeed.php");?>
+		<?php include("newsfeed.html");?>
 	</div>
 </div>
 </body>

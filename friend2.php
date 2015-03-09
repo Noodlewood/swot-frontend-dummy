@@ -23,7 +23,7 @@
 				<li><a href="device1.php"><div class="devices-list-picture toaster-pic"></div>Toaster</li>		
 			</ul>
 		</div>
-		<?php include("newsfeed.php");?>
+		<?php include("newsfeed.html");?>
 	</div>
 </div>
 </body>

@@ -20,10 +20,10 @@
 		</div>
 		<div class="devices-list">
 			<ul>
-				<li><a href="device2.php"><div class="devices-list-picture skoda-pic"></div>Skoda</li>				
+				<li><a href="device2.php"><div class="devices-list-picture skoda-pic"></div>Skoda</li>	
 			</ul>
 		</div>
-		<?php include("newsfeed.php");?>
+		<?php include("newsfeed.html");?>
 	</div>
 </div>
 </body>

@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -12,6 +12,13 @@
 	<?php include("navigation.html");?>
 	<div class="main">
 		<div class="main-title">Profil</div>
+		<div class="device-detail-picture person-pic"></div>	
+		<div class="devices-list">
+			<ul>
+				<li><a href="device1.php"><div class="devices-list-picture toaster-pic"></div>Toaster</li>		
+			</ul>
+		</div>
+		<?php include("newsfeed.html");?>
 	</div>
 </div>
 </body>

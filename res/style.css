@@ -5,6 +5,8 @@ html, body{
 body {
 	padding: 0;
 	margin: 0;
+	font-family: 'Slabo 27px', serif;
+	font-family: 'Press Start 2P', cursive;
 }
 
 ul {
@@ -50,11 +52,22 @@ li {
 	margin: 10px;
 }
 
-.devices-list li, .device-actions li {
+.devices-list li {
 	display: inline-block;
 	cursor: pointer;
 	font-size: 23px;
 	text-align: center;
+}
+
+.device-actions li {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 23px;
+	text-align: center;
+	border: 1px solid black;
+	width: 70px;
+	height: 50px;
+	padding-top: 20px;
 }
 
 .devices-list li:hover, .device-actions li:hover {
@@ -80,6 +93,18 @@ li {
 	margin: 20px;
 	padding: 10px;
 	border: 1px solid black;
+}
+
+.device-top > div {
+	display: inline-block;	
+}
+
+.device-top > div:nth-child(2) {
+	margin-right: 270px;	
+}
+
+.device-top, .device-center {
+	margin-bottom: 70px;
 }
 
 .device-detail-picture {
@@ -122,4 +147,9 @@ li {
 
 .news-header {
 	margin-bottom: 10px;
+}
+
+.device-admin-functions * {
+	cursor: pointer;
+	text-align: right;
 }
