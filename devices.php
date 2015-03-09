@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="../res/style.css">
+<link rel="stylesheet" type="text/css" href="res/style.css">
 <title>SWOT Frontend Dummy</title>
 </head>
 
@@ -14,8 +14,8 @@
 		<div class="main-title">Geräte</div>
 		<div class="devices-list">
 			<ul>
-				<li><a href="devices/device1.php">Device1</li>
-				<li><a href="devices/device2.php">Device2</li>				
+				<li><a href="device1.php">Device1</li>
+				<li><a href="device2.php">Device2</li>				
 			</ul>
 		</div>
 	</div>

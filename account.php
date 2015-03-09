@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="../res/style.css">
+<link rel="stylesheet" type="text/css" href="res/style.css">
 <title>SWOT Frontend Dummy</title>
 </head>
 
@@ -11,7 +11,7 @@
 <div class="content">
 	<?php include("navigation.html");?>
 	<div class="main">
-		<div class="main-title">Profil</div>
+		<div class="main-title">Konto</div>
 	</div>
 </div>
 </body>

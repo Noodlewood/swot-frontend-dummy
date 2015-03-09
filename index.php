@@ -7,9 +7,9 @@
 </head>
 
 <body>
-<?php include("swot/header.html");?>
+<?php include("header.html");?>
 <div class="content">
-	<?php include("swot/navigation.html");?>
+	<?php include("navigation.html");?>
 		<div class="main">
 		<div class="main-title">Neuigkeiten</div>
 		<div class="news-container">

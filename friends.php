@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="../res/style.css">
+<link rel="stylesheet" type="text/css" href="res/style.css">
 <title>SWOT Frontend Dummy</title>
 </head>
 
