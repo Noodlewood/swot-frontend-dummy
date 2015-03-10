@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="res/style.css">
-<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-<title>SWOT Frontend Dummy</title>
-</head>
-
-<body>
 <?php include("header.html");?>
-<div class="content">
-	<?php include("navigation.html");?>
+
 	<div class="main">
 		<div class="device-top">
 			<div class="device-detail-picture skoda-pic"></div>
@@ -39,7 +27,4 @@
 			<?php include("newsfeed.html");?>
 		</div>
 	</div>
-</div>
-</body>
-
-</html>
+<?php include("footer.html");?>

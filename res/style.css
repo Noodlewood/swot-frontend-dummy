@@ -1,3 +1,51 @@
+
+.top-bar .toggle-topbar{
+	left:0px;
+	right: auto;
+}
+
+.top-bar .name {
+	background: transparent url("icons/title.png") no-repeat center center;
+	width: 180	px;
+	margin-left: 80px;
+}
+
+.top-bar {
+	background-color: #FEAF10;
+	margin-bottom: 40px;
+}
+
+.nav-item {
+	height: 36px;
+	padding-left: 42px;
+	padding-top: 8px;
+	background-position: left center;
+	background-repeat: no-repeat;
+}	
+
+.news-icon {
+	background-image: url("icons/calendar-text.png");
+}
+
+.profile-icon {
+	background-image: url("icons/account-star.png");
+}
+
+.messages-icon {
+	background-image: url("icons/comment.png");
+}
+
+.friends-icon {
+	background-image: url("icons/account-multiple.png");
+}
+
+.devices-icon {
+	background-image: url("icons/hexagon-outline.png");
+}
+
+.account-icon {
+	background-image: url("icons/lock.png");
+
 html, body{
   height:100%;
 }
@@ -6,7 +54,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Slabo 27px', serif;
-	font-family: 'Press Start 2P', cursive;
+	background-color: #ffe8e6;
 }
 
 ul {
@@ -39,6 +87,7 @@ a {
 .header {
 	height: 65px;
 	width: 100%;
+	background-color: #FEAF10;
 }
 
 .navigation {
